@@ -1,0 +1,250 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ ProN W3", 
+    "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", sans-serif;
+}
+
+main{
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header img{
+    float: left;
+}
+
+input[type="search"] {
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 180px;
+}
+
+:placeholder{
+    color: #cccccc;
+}
+
+input[type="submit"] {
+    float: right;
+    margin-top: 11px;
+}
+
+h1 {
+    margin-top: 0;
+    color: #664433;
+    clear: both;
+    font-size: 15px;
+}
+
+header ul {
+    display: flex;
+    margin: 2px 0 2px 0;
+    list-style: none;
+    padding: 0;
+    clear: both;
+}
+
+header  ul li {
+    flex: 1;text-align: center;
+    border-right: solid 1px #cccccc;
+    margin-bottom: 2px;
+}
+
+header a {
+    text-decoration: none;
+    color: #664433;
+    display: block;
+}
+
+.list_bottom{
+    border: none;
+    margin: x;
+}
+
+.main_view {
+    text-align: center;
+    border-top: solid 1px #cccccc;
+    background-color: #f5f5dd;
+}
+
+.main_view img {
+    width: 960px;
+    text-align: center;
+}
+
+.contents {
+    background-color: #f5f5dd;
+    min-width: 960px;
+}
+
+main{
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 22%;
+    float: left;
+}
+
+section {
+    background-color: #ffffff;
+    margin: 10px 10px 15px 0px;
+    padding: 10px;
+}
+
+h2{
+    background-color: #99dd22;
+    clear: both;
+    border-radius: 20px;
+    padding: 2px 2px 2px 15px;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+h2 img {
+    vertical-align: text-top;
+}
+
+nav ul {
+    padding-left: 0px;
+    margin: 0;
+}
+
+nav li {
+    background-image: url("CookCamp/images/icon/arrow.png");
+    background-repeat: no-repeat;
+    background-position:left center;
+    list-style-type: none;
+    list-style-position: inside;
+    border-bottom: dotted 1px;
+    padding: 5px 0;
+    clear: both;
+    text-indent: 25px;
+}
+
+nav section a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+article {
+    float: left;
+    width: 63%;
+}
+
+figure {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin: 0;
+}
+
+article section a {
+    background-image: url("CookCamp/images/icon/arrow.png");
+    background-repeat: no-repeat;
+    background-position:left center;
+    text-decoration: none;
+    color: #fc8833;
+    float: right;
+    margin-bottom: 10px;
+    display: block;
+    clear: both;
+    text-indent: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+
+.textbox>img{
+    width: 48%;
+    float: left;
+    clear: both;
+    box-sizing: border-box;
+    padding: 0 0 0 15px;
+}
+
+section p {
+    margin: 0;
+    font-size: 10px;
+}
+
+.textbox p {
+    font-size: 14px;
+    padding: 0px 0px 10px 15px;
+    float: right;
+    width: 49%;
+}
+
+h3 {
+    color: #664433;
+    font-size: 15px;
+    margin: 0 0 10px 20px;
+    float: left;
+}
+
+aside {
+    width: 15%;
+    float: left;
+    mrgin-top: 10px;
+}
+
+aside a{
+    display: block;
+    margin-bottom: 10px;
+}
+
+aside img {
+    width: 100%;
+}
+
+footer {
+    width: 960px;
+    margin: 0px auto;
+    clear: both;
+    border-top: solid 1px #cccccc;
+}
+
+footer ul {
+    padding-left: 0px;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+footer li {
+    width: 15%;
+    list-style-type: none;
+    text-align: center;
+    font-size: 12px;
+    border-right: solid 1px #cccccc;
+    margin: 5px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    text-align: center;
+    color: #cccccc;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
